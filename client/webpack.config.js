@@ -22,6 +22,10 @@ module.exports = () => {
         template: './index.html',
         title: "Jate"
       }),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
+      }),
       
       new WebpackPwaManifest({
         fingerprints: false,
@@ -39,10 +43,6 @@ module.exports = () => {
           destination: path.join('assets', 'icons'),
       }],
 
-      }),
-      new InjectManifest({
-        swSrc: './src-sw.js',
-        swDest: 'src-sw.js',
       }),
       
     ],
