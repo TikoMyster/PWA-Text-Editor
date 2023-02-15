@@ -1,7 +1,9 @@
 {
   "name": "Jate",
   "version": "1.0.0",
-  "engines": {"node":"19.6.0"},
+  "engines": {
+    "node": "19.6.0"
+  },
   "description": "Jate",
   "main": "server.js",
   "scripts": {
@@ -21,7 +23,7 @@
   },
   "devDependencies": {
     "concurrently": "7.6.0",
-    "nodemon": "2.0.20"
-
+    "nodemon": "2.0.20",
+    "webpack": "^5.75.0"
   }
 }
