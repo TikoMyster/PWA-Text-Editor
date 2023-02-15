@@ -1,6 +1,7 @@
 {
   "name": "Jate",
   "version": "1.0.0",
+  "engines": {"node":"1.1.10"},
   "description": "Jate",
   "main": "server.js",
   "scripts": {
